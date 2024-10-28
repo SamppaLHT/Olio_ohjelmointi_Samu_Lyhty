@@ -1,0 +1,2 @@
+# Olio_ohjelmointi_Samu_Lyhty
+Olio ohjelmoinnin kotitehtäviä TVT24KMO
