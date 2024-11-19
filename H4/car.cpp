@@ -28,15 +28,24 @@ void Car::setBrand(const string &newBrand)
     brand = newBrand;
 }
 
-void Car::setWheels(const Wheel& wheel) {
-    objWheel1 = wheel;
-    objWheel2 = wheel;
-    objWheel3 = wheel;
-    objWheel4 = wheel;
+void Car::setWheels() {
+    objWheel1.setSize(17);
+    objWheel1.setType("kesarengas");
+
+    objWheel2.setSize(17);
+    objWheel2.setType("kesarengas");
+
+    objWheel3.setSize(17);
+    objWheel3.setType("kesarengas");
+
+    objWheel4.setSize(17);
+    objWheel4.setType("kesarengas");
+
 }
 
-void Car::setEngine(const Engine& engine) {
-    objEngine = engine;
+void Car::setEngine() {
+    objEngine.setHorsepower(150);
+    objEngine.setDisplacement(2.0);
 }
 
 void Car::printDetails() const {

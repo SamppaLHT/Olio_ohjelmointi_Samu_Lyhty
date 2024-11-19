@@ -8,12 +8,10 @@ using namespace std;
 
 int main()
 {
-    Engine engine(150, 2.0);
-    Wheel wheel(17, "kesarengas");
-
     Car car("Corolla", "Toyota");
-    car.setEngine(engine);
-    car.setWheels(wheel);
+
+    car.setEngine();
+    car.setWheels();
 
     car.printDetails();
     return 0;

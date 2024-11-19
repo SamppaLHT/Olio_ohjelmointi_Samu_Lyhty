@@ -13,8 +13,8 @@ public:
     Car();
     Car(const string& model, const string& brand);
 
-    void setEngine(const Engine& engine);
-    void setWheels(const Wheel& wheel);
+    void setEngine();
+    void setWheels();
 
     string getModel() const;
     void setModel(const string& newModel);
@@ -23,6 +23,7 @@ public:
     void setBrand(const string& newBrand);
 
     void printDetails() const;
+
 private:
     Engine objEngine;
     Wheel objWheel1, objWheel2, objWheel3, objWheel4;
